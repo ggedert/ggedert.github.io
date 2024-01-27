@@ -15,17 +15,50 @@
             margin: 0;
         }
 
-        .center-text {
-            text-align: center;
-			margin-top: 25vh;
+        .content-container {
+            margin-left: 20px;
+			margin-top: 30vh;
+        }
+
+        .right-column {
+            text-align: right;
+        }
+
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+			margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        .content {
+			font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .image-container {
+            flex-shrink: 0;
+			margin-top: 30vh;
+        }
+
+        .image {
+            width: 100px; 
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
         }
     </style>
     <title>Eladó domain</title>
 </head>
 <body>
-    <div class="center-text">
-        <h1>A domain eladó.</h1>
-		<p>Érdeklődni: info@test.com</p>
+    <div class="image-container">
+        <img class="image" src="constr.jpg" alt="Under construction">
+    </div> 
+	<div class="content-container">
+        <div class="header">Under construction</div>
+        <div class="content">Come back later</div>
     </div>
+
+
 </body>
 </html>
